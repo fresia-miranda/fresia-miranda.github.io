@@ -1,0 +1,80 @@
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Raleway", sans-serif; 
+}
+
+#logoviajes
+{
+    width: 28 px;
+    height: auto;
+}
+
+.card{
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 20px;  /*separacion de las cards al ser columna */
+    max-width: 20rem;
+    
+}
+
+.card-text p{
+    text-align: left;
+}
+
+.card-title h5{
+    text-align: left;
+}
+
+
+#footer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+#fondonegro
+{
+    color: #ffffff;
+}
+#footer i{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;  
+}
+
+
+
+#iconos{
+    color: white;
+}
+
+#iconos a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+h4
+{
+    text-align: center;
+}
+
+
+
+#formulario{
+    padding-top: 10px;
+    padding-bottom: 35px;
+    text-align: left;
+    margin: 0% 20%;
+}
+
+#btn-enviar{
+    display: flex;
+    justify-content: center;    
+}
