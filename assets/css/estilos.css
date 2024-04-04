@@ -5,6 +5,7 @@ body
     margin: 0px;
     padding: 0px;
     font-family: "Raleway", sans-serif; 
+    background-color: black;
 }
 
 #logoviajes
@@ -12,7 +13,13 @@ body
     width: 28 px;
     height: auto;
 }
-
+#contenidoQS
+{
+    padding: 10rem;
+    padding: 10rem;
+    padding-top:10rem;
+    padding-bottom:10rem;
+}
 .card{
     border-top-width: 0px;
     border-bottom-width: 0px;
@@ -21,8 +28,14 @@ body
     padding-left: 0px;
     padding-right: 0px;
     margin-bottom: 20px;  /*separacion de las cards al ser columna */
-    max-width: 20rem;
+    max-width: 18rem;
     
+}
+
+
+.card-img-top
+{
+    height: auto;
 }
 
 .card-text p{
@@ -34,6 +47,18 @@ body
 }
 
 
+.card-img-top{
+    max-height: 10rem;
+}
+
+#tituloQS
+{
+    margin-bottom: 3rem ;
+}
+#contenidoDest
+{
+    text-align: center;
+}
 #footer{
     padding-top: 15px;
     padding-bottom: 15px;
